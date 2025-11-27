@@ -29,15 +29,20 @@ ul {
 
 link {
   color: var(--color-primary-light);
+  text-decoration: none;
 }
+
 .link:hover {
   color: var(--color-brand-light);
+  text-decoration: underline;
 }
 
 /* Hero section*/
 .hero-title {
   color: var(--color-primary-light);
   font-family: "Playwrite USA Traditional Guides", sans-serif;
+  text-align: center;
+  /*text-transform: uppercase;*/
 }
 
 .hero-title .accent {
@@ -52,4 +57,8 @@ link {
 
 .section-title .accent {
   counter-reset: var(--color-brand-light);
+}
+
+/* Traditions*/
+.traditions-text span {
 }
